@@ -1,0 +1,163 @@
+{
+  "name": "",
+  "hero": {
+    "name": "Naruto Uzumaki",
+    "isRanged": false,
+    "hp": 17,
+    "move": 2,
+    "specialAbility": "Naruto has a lot of chakra and stamina, when your deck is empty reshuffle your discard pile.\nJinchūriki Transformations."
+  },
+  "sidekick": {
+    "name": "clones",
+    "isRanged": false,
+    "hp": null,
+    "quantity": 3,
+    "quote": null
+  },
+  "appearance": {
+    "borderColour": "#426837",
+    "cardbackUrl": "",
+    "highlightColour": "#eb8a40",
+    "isPNP": false,
+    "patternName": "None"
+  },
+  "cards": [
+    {
+      "title": "Kage Bunshin no Jutsu",
+      "type": "scheme",
+      "characterName": "NARUTO\n",
+      "value": null,
+      "boost": 3,
+      "basicText": "Add new clones, adjacent to Naruto (all available).\n",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "",
+      "quantity": 5
+    },
+    {
+      "title": "To merges with clones",
+      "type": "scheme",
+      "characterName": "NARUTO",
+      "value": null,
+      "boost": 1,
+      "basicText": "Shuffle Naruto with clones which in same zone with real. Don't show where real Naruto to your opponent.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "",
+      "quantity": 4
+    },
+    {
+      "title": "Rasengan",
+      "type": "attack",
+      "characterName": "ANY",
+      "value": 3,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "if there at least 1 clone \nadjacent you: rise value by 1",
+      "afterText": "if you win move target up 1 space",
+      "imageUrl": "",
+      "quantity": 4
+    },
+    {
+      "title": "Uzumaki Naruto Rendan",
+      "type": "attack",
+      "characterName": "NARUTO",
+      "value": 1,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "Damage will increase by 1 for each clone adjacent to the target ",
+      "afterText": "If you lose, remove all clones involved in the combat (except active if it a clone)",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Senjutsu Chakra",
+      "type": "scheme",
+      "characterName": "NARUTO",
+      "value": null,
+      "boost": 3,
+      "basicText": "Choose one clone that will accumulate natural chakra and move it up to 3 space. Or add a new in same zone. Now this clone cannot do any actions and use defense card. On the next turn, you can boost double maneuver, attack or defense value in combat removing the clone.\n",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "For My Next Trick",
+      "type": "attack",
+      "characterName": "NARUTO\n",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Move one of your clone up to 1 space. Draw 1 card. Gain 1 action.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Taijutsu",
+      "type": "versatile",
+      "characterName": "ANY",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "If you can and if you attacker, create new clone adjacent you.",
+      "duringText": "if there at least 1 clone \nadjacent target: rise value by 1.",
+      "afterText": "If you use a clone in combat and lose, remove that clone.",
+      "imageUrl": "",
+      "quantity": 4
+    },
+    {
+      "title": "Food Pills",
+      "type": "scheme",
+      "characterName": "NARUTO",
+      "value": null,
+      "boost": 2,
+      "basicText": "Draw 3 card.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "",
+      "quantity": 3
+    },
+    {
+      "title": "demon fox cloak",
+      "type": "defence",
+      "characterName": "JINCHŪRIKI ",
+      "value": 3,
+      "boost": 0,
+      "basicText": "",
+      "immediateText": "Cancel all damage effects on your opponent's card.",
+      "duringText": "",
+      "afterText": "if you win, move opposing fighter by 2 spaces away from you.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "demon fox tails\n",
+      "type": "attack",
+      "characterName": "JINCHŪRIKI\n",
+      "value": 4,
+      "boost": 0,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "Deal 1 damage to each opposing fighter adjacent to you",
+      "afterText": "If you win, move opposing fighter by 2 space away from you.",
+      "imageUrl": "",
+      "quantity": 2
+    }
+  ],
+  "ruleCards": [
+    {
+      "content": "Clones: Real Naruto marked below the miniature. Start with 2 clone.\nSenjutsu Chakra: In preparation, you can mark one clone to collect natural chakra as if by using a card senjutsu chakra.\nJinchūriki Transformations: When Narute has 4 or less HP he gets his jinchuriki form. Remove all clones from field, all cards that naruto allowed to use now can be used as booster of attack and defense in combat (one card in one combat).\n",
+      "title": "Extra rules"
+    }
+  ],
+  "extraCharacters": []
+}
