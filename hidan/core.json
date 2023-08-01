@@ -1,0 +1,215 @@
+{
+  "name": "",
+  "hero": {
+    "name": "Hidan",
+    "isRanged": false,
+    "hp": 30,
+    "move": 2,
+    "specialAbility": "Death Controlling Possessed Blood If you have dealt damage by card with ⎊ and the target of the attack - still alive, activate Curse.\nImmortality: At the beginning of each turn, restore 2 health if your deck is not empty.\n"
+  },
+  "sidekick": {
+    "name": "Sidekick",
+    "isRanged": false,
+    "hp": null,
+    "quantity": 0,
+    "quote": ""
+  },
+  "appearance": {
+    "borderColour": "#dfdfaa",
+    "cardbackUrl": "https://w0.peakpx.com/wallpaper/899/861/HD-wallpaper-hidan-anime-naruto-thumbnail.jpg",
+    "highlightColour": "#c03f2f",
+    "isPNP": false,
+    "patternName": "None"
+  },
+  "cards": [
+    {
+      "title": "Shiji Hyōketsu",
+      "type": "scheme",
+      "characterName": "HIDAN",
+      "value": null,
+      "boost": 1,
+      "basicText": "If you have damaged an opponent with a marked card since your previous turn, activate The CURSE ⎊ on one of those who took damage.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://wiki.jcdn.ru/w/images/thumb/d/d3/ShijiHyoketsu.jpg/450px-ShijiHyoketsu.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "Sacrifice ⎊",
+      "type": "scheme",
+      "characterName": "HIDAN",
+      "value": null,
+      "boost": 2,
+      "basicText": "Deal 10 damage to yourself.\nIf any opponent was killed by this card and opponent has self health counter - recovery full health.\n",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Bukijutsu ⎊",
+      "type": "versatile",
+      "characterName": "HIDAN",
+      "value": 3,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Draw 1 card. If you win the combat draw 2 card instead.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "satisfaction",
+      "type": "defence",
+      "characterName": "HIDAN",
+      "value": 0,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Restore health for all damage taken. Draw 1 card.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "For the Jashin",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 3,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Take any 1 card from the discard pile.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Tornado slash",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 3,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "Deal 2 damage to everyone on your adjacent cells. ",
+      "afterText": "",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Jump punch ⎊",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "Move to other space around the target if it possible.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Puncture ⎊",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 4,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "If you win combat - draw one card.",
+      "imageUrl": "https://wiki.jcdn.ru/w/images/thumb/7/72/Hidan_Spear.jpg/375px-Hidan_Spear.jpg",
+      "quantity": 3
+    },
+    {
+      "title": "Scythe throw ⎊",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "If you lose combat - move  by one space.",
+      "imageUrl": "",
+      "quantity": 3
+    },
+    {
+      "title": "counter punch ⎊",
+      "type": "defence",
+      "characterName": "HIDAN",
+      "value": 1,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Deal damage in return equal to the opponent's card boost value.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Momentous Shift",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 3,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "If your fighter started this turn in a different space, this card's value is 5 instead.",
+      "afterText": "",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Swift Strike",
+      "type": "attack",
+      "characterName": "HIDAN",
+      "value": 3,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Move your fighter up to 4 spaces.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "prayer",
+      "type": "scheme",
+      "characterName": "HIDAN",
+      "value": null,
+      "boost": 2,
+      "basicText": "Place this card near, your next attack has double damage. Can't use on damage yourself.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://avatars.mds.yandex.net/i?id=945e8359768641be11be4f06d264c2a6ff16e843-5987336-images-thumbs&n=13",
+      "quantity": 2
+    },
+    {
+      "title": "annoyance",
+      "type": "scheme",
+      "characterName": "HIDAN",
+      "value": null,
+      "boost": 1,
+      "basicText": "Be sure to move towards your nearest opponent by 1 space. \nGain 1 action. Draw 2 cards.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-95691a39005b7a21ad249f5914fd52b5.webp",
+      "quantity": 2
+    }
+  ],
+  "ruleCards": [
+    {
+      "content": "Activation: place one markers ⎊ on the target 's card and on your space. \nNow you: \n▹When stand on the ⎊ , all damage received is also dealt to the marked opponent.\n▹Can use cards with ⎊ at any distance if you standing on space with ⎊, If the opponent is not on the adjacent square, he can't use the cards for defence.\n",
+      "title": "Curse ⎊ "
+    }
+  ],
+  "extraCharacters": []
+}
