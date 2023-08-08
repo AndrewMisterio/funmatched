@@ -1,0 +1,296 @@
+{
+  "name": "",
+  "hero": {
+    "name": "Tendō",
+    "isRanged": true,
+    "hp": 7,
+    "move": 2,
+    "specialAbility": "Tendo's cards can be boost by another Tendo's card.\n\n"
+  },
+  "sidekick": {
+    "name": "Sidekick",
+    "isRanged": false,
+    "hp": null,
+    "quantity": 0,
+    "quote": "\n                    The Deva Path\n"
+  },
+  "appearance": {
+    "borderColour": "#b2e302",
+    "cardbackUrl": "https://i.pinimg.com/1200x/ef/31/aa/ef31aa3336035ca65cbf202d38e5988b.jpg",
+    "highlightColour": "#d56925",
+    "isPNP": false,
+    "patternName": ""
+  },
+  "cards": [
+    {
+      "title": "Banshō Ten'in",
+      "type": "scheme",
+      "characterName": "TENDŌ",
+      "value": null,
+      "boost": 2,
+      "basicText": "Choose opponent's fighter within a 4 step radius and move him 4 steps towards you.\nBoost: radius and movement on 6 space.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://i.ytimg.com/vi/BpF9mHL3Lcc/mqdefault.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "Tendō: SHINRA defence",
+      "type": "defence",
+      "characterName": "ANY",
+      "value": 3,
+      "boost": 2,
+      "basicText": "Support card by Tendō.",
+      "immediateText": "Cancel all effects.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDxDzw9sG1XgvrPKF51sQXyIepkIl86-FkVowDGQvV0p1GOthYXPFNr_3UfxsMVpWTo4g&usqp=CAU",
+      "quantity": 2
+    },
+    {
+      "title": "SHINRA TENSEI",
+      "type": "attack",
+      "characterName": "TENDŌ",
+      "value": 2,
+      "boost": 2,
+      "basicText": "Boost effect: increase attack value by boost value, you can apply dealt damage and effect to every fighter adjacent you.",
+      "immediateText": "",
+      "duringText": "Move your opponent up to 4 steps away from you.",
+      "afterText": "",
+      "imageUrl": "https://image.winudf.com/v2/image/Y29tLmFuZHJvbW8uZGV2NzE3NDMwLmFwcDgwNTY0Ml9zY3JlZW5fMV8xNTMwNzE2ODA0XzA1MA/screen-1.webp?fakeurl=1&type=.webp",
+      "quantity": 2
+    },
+    {
+      "title": "missiles",
+      "type": "attack",
+      "characterName": "SHURADŌ",
+      "value": 4,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://pm1.aminoapps.com/7125/66447925a1def9226c396ea2adb34bfa4ae78cd1r1-261-200v2_hq.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "powerful chakra blast",
+      "type": "attack",
+      "characterName": "SHURADŌ",
+      "value": 5,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://pm1.aminoapps.com/7125/13de3cc17405e34cef54d07f95b893c70ffdf870r1-300-300v2_hq.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "mechanical weaponry",
+      "type": "defence",
+      "characterName": "SHURADŌ",
+      "value": 4,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Deal counter damage to the attacker in the amount of the attack card's boost value.",
+      "imageUrl": "https://pm1.aminoapps.com/7125/f26679fa09c28cecb0d74fd7231f67c4ad7fa66er1-1920-1080v2_hq.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "mind reading",
+      "type": "attack",
+      "characterName": "Ningendō",
+      "value": 1,
+      "boost": 3,
+      "basicText": "\n",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "If you win: see all cards in opponents hand and deal 8 damage.\n",
+      "imageUrl": "https://i.pinimg.com/564x/6d/e3/4c/6de34cb8b76031415441b28ad6c46fa4.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "Giant Drill-Beaked Bird",
+      "type": "scheme",
+      "characterName": "Chikushōdō\n",
+      "value": null,
+      "boost": 2,
+      "basicText": "Summoning card\nAbility: Do either 3 damage to one fighter or 1 damage to three adjacent by each other fighters.\n",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj6aCH3t7UxNK062K3Pify2UTxNx6d9BkvhQ&usqp=CAU",
+      "quantity": 1
+    },
+    {
+      "title": "Giant Snake-Tailed Chameleon",
+      "type": "scheme",
+      "characterName": "CHIKUSHŌDŌ",
+      "value": null,
+      "boost": 2,
+      "basicText": "Immediately: Remove up to a fighter from the field before the end of the turn, return it at the beginning of the next turn to any location.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://staticg.sportskeeda.com/editor/2023/04/37319-16819947363917-1920.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "CHIKUSHŌDŌ: Giant Panda",
+      "type": "defence",
+      "characterName": "ANY",
+      "value": 10,
+      "boost": 2,
+      "basicText": "Support card by Chikushōdō.",
+      "immediateText": "Cancel all effects.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://i.pinimg.com/originals/ff/be/6f/ffbe6f3d6fa416fa4808c1878a29dfc8.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "Giant Ox",
+      "type": "attack",
+      "characterName": "CHIKUSHŌDŌ",
+      "value": 5,
+      "boost": 2,
+      "basicText": "Summoning card.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://i.pinimg.com/736x/c9/a5/21/c9a52190a122c012823ce6101ad84225--summoning-ox.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "Giant Rhino",
+      "type": "attack",
+      "characterName": "CHIKUSHŌDŌ",
+      "value": 5,
+      "boost": 2,
+      "basicText": "Summoning card.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://i.pinimg.com/736x/e4/c0/53/e4c053187057a67a1b783e825f6dfcaa.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "Giant Crustacean",
+      "type": "versatile",
+      "characterName": "CHIKUSHŌDŌ",
+      "value": 3,
+      "boost": 2,
+      "basicText": "Summoning card. \nAs attack is water elemental.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAI-G3y0kqtIUlfOLV2XSx02UvDVtQS0fGm7kJ9ip_3E4DKhKQxEOhGZvHxCdzPw3JJeQ&usqp=CAU",
+      "quantity": 1
+    },
+    {
+      "title": "Giant Centipede",
+      "type": "scheme",
+      "characterName": "CHIKUSHŌDŌ",
+      "value": null,
+      "boost": 2,
+      "basicText": "Summoning card.\nAbility: Choose 4 adjacent spaces in a chain, they must not repeat. Deal 3 damage to each fighter on the spaces.\n",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://i.pinimg.com/originals/23/28/93/2328933a85c62a3f2182745e7139d0ae.jpg",
+      "quantity": 1
+    }
+  ],
+  "ruleCards": [
+    {
+      "content": "The owner of the card can be indicated in the name of the card. The ability holder must be on an adjacent space.\nExample: Tendō: SHINRA DEFENCE. Can be use by any fighters, with rules that owner is on adjacent space, but can be boost by Tendo's cards.",
+      "title": "Support cards"
+    }
+  ],
+  "extraCharacters": [
+    {
+      "hero": {
+        "name": "Shuradō",
+        "isRanged": true,
+        "hp": 7,
+        "move": 2,
+        "specialAbility": "? In one action you can make two attacks.\n? Restore 1 hp when you are makeing MANEUVER.\n"
+      },
+      "sidekick": {
+        "name": "Sidekick",
+        "isRanged": false,
+        "hp": null,
+        "quantity": 0,
+        "quote": "\n                     The Asura Path\n"
+      }
+    },
+    {
+      "hero": {
+        "name": "Ningendō",
+        "isRanged": false,
+        "hp": 5,
+        "move": 1,
+        "specialAbility": ""
+      },
+      "sidekick": {
+        "name": "Sidekick",
+        "isRanged": false,
+        "hp": null,
+        "quantity": 0,
+        "quote": "\n                   The Human Path\n"
+      }
+    },
+    {
+      "hero": {
+        "name": "Chikushōdō",
+        "isRanged": false,
+        "hp": 6,
+        "move": 2,
+        "specialAbility": "Has 2 summoning slots.\nOnce per turn you can summon two friendly fighters to adjacent spaces for 1 action.\nSummoning cards: Place the card in front of you and use ability on your next turn (no waste action).\n"
+      },
+      "sidekick": {
+        "name": "Sidekick",
+        "isRanged": false,
+        "hp": null,
+        "quantity": 0,
+        "quote": "\n                   The Animal Path\n"
+      }
+    },
+    {
+      "hero": {
+        "name": "Gakidō",
+        "isRanged": false,
+        "hp": 15,
+        "move": 2,
+        "specialAbility": "Special ability"
+      },
+      "sidekick": {
+        "name": "Sidekick",
+        "isRanged": false,
+        "hp": null,
+        "quantity": 0,
+        "quote": "\n                   The Preta Path\n"
+      }
+    },
+    {
+      "hero": {
+        "name": "Jigokudō",
+        "isRanged": false,
+        "hp": 15,
+        "move": 2,
+        "specialAbility": "Special ability"
+      },
+      "sidekick": {
+        "name": "Sidekick",
+        "isRanged": false,
+        "hp": null,
+        "quantity": 0,
+        "quote": "\n                   The Naraka Path\n"
+      }
+    }
+  ]
+}
