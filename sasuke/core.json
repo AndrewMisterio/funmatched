@@ -3,9 +3,9 @@
   "hero": {
     "name": "Sasuke",
     "isRanged": false,
-    "hp": 10,
+    "hp": 15,
     "move": 2,
-    "specialAbility": "SHARINGAN: The attack and defence values of enemy cards in combat are reduced by 1."
+    "specialAbility": "SHARINGAN: The attack and defence values of enemy cards in combat are reduced by 1.\nSharingan is Kekkei Genkai.\n\nSummoning slot 1.\n"
   },
   "sidekick": {
     "name": "Sidekick",
@@ -33,6 +33,19 @@
       "duringText": "",
       "afterText": "",
       "imageUrl": "https://jut.su/uploads/posts/2017-06/1497894332_izobrazhenie1.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "sharingan: copy jutsu",
+      "type": "versatile",
+      "characterName": "SASUKE",
+      "value": 0,
+      "boost": 1,
+      "basicText": "This card's effects cannot be canceled.",
+      "immediateText": "Choose one of your opponent's cards that has no higher boost value (The card doesn't have to be Kekkei Genkai) and immediately play it instead of this one.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfm3WFlB6TqvUbaTlWWv-VRdhQGqrPC4x4Pwxhzfqz8EYMMeBrC2LNGg6I74BvnxStbk&usqp=CAU",
       "quantity": 1
     },
     {
@@ -44,7 +57,7 @@
       "basicText": "",
       "immediateText": "Attacker can cancel attack and discard attack card.",
       "duringText": "",
-      "afterText": "If any damage was taken deal counter damage 4 value.",
+      "afterText": "If any damage was taken ATK 4 Enton: Amaterasu.",
       "imageUrl": "https://jut.su/uploads/posts/2013-09/1378834904_okruzhayuschee-plamya.jpg",
       "quantity": 2
     },
@@ -52,12 +65,12 @@
       "title": "Enton: Amaterasu",
       "type": "attack",
       "characterName": "SASUKE",
-      "value": 5,
-      "boost": 2,
+      "value": 4,
+      "boost": 3,
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "Your opponent may discard 1 card from their hand. If they don't ATK 3 Enton: Black fire.",
       "imageUrl": "https://pm1.aminoapps.com/6962/b4aaeffefae2cc80dfc4558a4dc3cfbc804d314br1-360-450v2_00.jpg",
       "quantity": 1
     },
@@ -70,7 +83,7 @@
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "Your opponent discard 1 card from their hand. If opponent not a big move target to adjacent space.",
       "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-b0f1af436ea99eb9acaf4dc44b34353a-lq",
       "quantity": 2
     },
@@ -88,12 +101,12 @@
       "quantity": 2
     },
     {
-      "title": "susano",
+      "title": "susanoo",
       "type": "scheme",
       "characterName": "SUSANO",
       "value": null,
-      "boost": 3,
-      "basicText": "Summoning card.\nAbility: Deal 5 damage as range attack.\nWhen card placed other susano cards has increase value +2.",
+      "boost": 4,
+      "basicText": "Summoning card.\nWhen card placed other Susanoo cards has increase value +2.\nAbility: Deal 5 damage as range attack.\n",
       "immediateText": null,
       "duringText": null,
       "afterText": null,
@@ -101,15 +114,28 @@
       "quantity": 1
     },
     {
-      "title": "Katon: Gōkakyū no Jutsu",
+      "title": "Katon: Hōsenka no Jutsu",
       "type": "attack",
       "characterName": "SASUKE",
-      "value": 3,
+      "value": 1,
       "boost": 1,
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "ATK 1 KATON: FLOW OF HOSENKA no JUTSU",
+      "imageUrl": "https://pm1.aminoapps.com/6461/f0dd2f6a425087288ba8bfb079171d5f1180f73a_00.jpg",
+      "quantity": 2
+    },
+    {
+      "title": "Katon: Gōkakyū no Jutsu",
+      "type": "attack",
+      "characterName": "SASUKE",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "ATK 1 Katon: Gōkakyū no Jutsu",
       "imageUrl": "https://preview.redd.it/is-there-any-scene-when-a-fire-ball-jutsu-actualy-burns-or-v0-qulewkoc4a6a1.jpg?width=640&crop=smart&auto=webp&s=8961a37d4fe6148defea780b6ece11289a4074ee",
       "quantity": 2
     },
@@ -118,11 +144,11 @@
       "type": "attack",
       "characterName": "SASUKE",
       "value": 4,
-      "boost": 2,
-      "basicText": "Place the cloud token.",
+      "boost": 3,
+      "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "Place the cloud token.",
       "imageUrl": "https://jut.su/uploads/posts/2013-08/1377007520_ognennyi-drakon.jpg",
       "quantity": 1
     },
@@ -148,20 +174,20 @@
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "If you won the combat, deal 2 damage to the opposing fighter.",
       "imageUrl": "https://wallpaperaccess.com/full/2526247.jpg",
       "quantity": 2
     },
     {
-      "title": "Raiton: Chidori True Spear",
+      "title": "Raiton: Chidori Sharp Spear",
       "type": "attack",
       "characterName": "SASUKE",
-      "value": 2,
+      "value": 3,
       "boost": 1,
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "",
+      "afterText": "if you win opponent discard 1 card.",
       "imageUrl": "https://jut.su/uploads/posts/2013-08/1375595345_kope-chidori.jpg",
       "quantity": 2
     },
@@ -174,7 +200,7 @@
       "basicText": "",
       "immediateText": "",
       "duringText": "",
-      "afterText": "Do the same damage to everyone on adjacent you spaces.",
+      "afterText": "Deal 1 damage to a fighter adjacent to SASUKE.",
       "imageUrl": "https://jut.su/uploads/posts/2013-07/1374994536_chidori-nagashi.jpg",
       "quantity": 2
     },
@@ -182,11 +208,11 @@
       "title": "Kirin",
       "type": "attack",
       "characterName": "SASUKE",
-      "value": 6,
+      "value": 5,
       "boost": 3,
-      "basicText": "Need the cloud token to be placed.",
+      "basicText": "Required the cloud token to be placed.",
       "immediateText": "",
-      "duringText": "",
+      "duringText": "If your opponent played a defense card deal 3 unblockable damage.",
       "afterText": "Remove cloud token.",
       "imageUrl": "https://jut.su/uploads/posts/2013-08/1377005650_kirin.jpg",
       "quantity": 1
@@ -210,7 +236,7 @@
       "characterName": "SASUKE",
       "value": null,
       "boost": 0,
-      "basicText": "You can move to any space on the map.",
+      "basicText": "Summoning card.\nYou can move to any space on the map.",
       "immediateText": null,
       "duringText": null,
       "afterText": null,
@@ -219,31 +245,49 @@
     },
     {
       "title": "Hebi Kuchiyose no Jutsu",
-      "type": "scheme",
+      "type": "attack",
       "characterName": "SASUKE",
-      "value": null,
+      "value": 3,
       "boost": 1,
-      "basicText": "Summoning card.\nAbility: Deal 3 damage to one fighter in any place.",
-      "immediateText": null,
-      "duringText": null,
-      "afterText": null,
-      "imageUrl": "https://jut.su/uploads/posts/2012-02/1329144196_zmeyaorochimaru.jpg",
-      "quantity": 1
-    },
-    {
-      "title": "Jagei Jubaku",
-      "type": "defence",
-      "characterName": "SASUKE",
-      "value": 2,
-      "boost": 2,
-      "basicText": "",
+      "basicText": "Summoning card.\n",
       "immediateText": "",
       "duringText": "",
       "afterText": "",
-      "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-547d0e5d5b0d407450a739b01d69b978-pjlq",
+      "imageUrl": "https://wiki.jcdn.ru/w/images/c/c3/Hebi_Sasuke.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "Kuchiyose: Raikō Kenka",
+      "type": "attack",
+      "characterName": "SASUKE",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "if you win opponent discard 1 card, otherwise you draw 1 card. \n\n",
+      "imageUrl": "https://jut.su/uploads/posts/2013-08/1377007197_prizyv.-molnienosnoe-skrytoe-oruzhie.jpg",
+      "quantity": 1
+    },
+    {
+      "title": "Kawarimi no Jutsu",
+      "type": "defence",
+      "characterName": "SASUKE",
+      "value": 0,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "If the boost value on your \nopponent's card is not greater than of this boost value: cancel all effects on your opponent's card and ignore all damage.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://i.ytimg.com/vi/jSBlqath3n8/hqdefault.jpg",
       "quantity": 1
     }
   ],
-  "ruleCards": [],
+  "ruleCards": [
+    {
+      "content": "• Summoning cards: Place the card in front of you and use ability on your next turn (no waste action), after applying ability discard summoning card.\n",
+      "title": "Extra rules"
+    }
+  ],
   "extraCharacters": []
 }
