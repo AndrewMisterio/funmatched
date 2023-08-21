@@ -8,3 +8,4 @@ Katon - more damage if you won.
 Raiton - opponent discard cards if you won.
 Suiton - you may BLIND BOOST card value.
 Doton - often The opposing fighter may not leave their space for the rest of the turn. or has greate defence value.
+Foton - some damage is unblockable, it mean that if you lose - deal tiny damage.
